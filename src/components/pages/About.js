@@ -1,4 +1,6 @@
 import React from 'react';
+import Vmcv from './inc/Vmcv';
+
 
 const About = () => {
     return (
@@ -16,14 +18,23 @@ const About = () => {
                 </div>
             </section>
 
-            <section className = "section bg-light border-bottom">
+            <section className = "section border-bottom">
                 <div className = "container">
                     <h5 className="main-heading">Our Company</h5>
                     <div className="underline"></div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sint quia quod laudantium eius maiores maxime sit eos error. Delectus, maiores.</p>
                 </div>
             </section>
+
+            {/* our vision  mission & values */}
+
+            <Vmcv></Vmcv>
+
+            {/* our services */}
+
         </div>
+        
+            
     );
 };
 
