@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contract from "./components/pages/Contract";
 import Navbar from "./components/include/Navbar";
+import Footer from "./components/include/Footer";
 
 
 function App() {
@@ -24,11 +25,12 @@ function App() {
        <About></About>
       </Route>
 
-      <Route path = "/contact">
+      <Route path = "/contract">
        <Contract></Contract>
       </Route>
 
     </Switch>
+    <Footer></Footer>
 
   
    </div>

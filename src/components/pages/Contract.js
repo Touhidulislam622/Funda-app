@@ -1,14 +1,20 @@
 import React from 'react';
+import photos8 from '../../components/images/240_F.jpg'
+
 
 const Contract = () => {
     return (
-        <div className="container">
-        <div className="card mt-4 ">
-            <div className="card-body">
-                <h2>This is Contract</h2>
+        <div className="contract-pg">
+            <div className="row">
+            <div className="col-md-6">
+                <img src={photos8} alt="contract" className="img-6" />
+                <hr />
+            </div>
+            <div className="col-md-6">
+                <img src={photos8} alt="img-4" />
+            </div>
             </div>
         </div>
-    </div>
     );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import slider1 from '../images/React-Native-Img.png'
+import slider1 from '../images/React-Native-g.png'
 
 
 const slider = () => {
